@@ -1,0 +1,5 @@
+name: Recipe Field Ingredient
+type: module
+description: 'Adds a field for adding ingredients to a recipe'
+core: 8.x
+version: 0.1beta

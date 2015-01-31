@@ -1,0 +1,46 @@
+# Schema for the configuration files of the Recipe Ingredient Field module.
+
+# Widget.
+entity_form_display.field.recipe_ingredient_field_default:
+  type: entity_field_form_display_base
+  label: 'Ingredient default format settings'
+  mapping:
+    settings:
+      type: mapping
+      label: 'Settings'
+      mapping:
+        placeholder_ingredient:
+          type: label
+          label: 'Placeholder for the ingredient property'
+        placeholder_unit:
+          type: label
+          label: 'Placeholder for the unit property'
+        placeholder_amount:
+          type: label
+          label: 'Placeholder for the amount property'
+
+# Formatter.
+entity_view_display.field.recipe_ingredient_field_row:
+  type: entity_field_view_display_base
+  label: 'Ingredient row format settings'
+  mapping:
+    settings:
+      type: mapping
+      label: 'Settings'
+      mapping:
+        title:
+          type: label
+          label: '???'
+
+# Formater.
+entity_view_display.field.recipe_ingredient_field_text:
+  type: entity_field_view_display_base
+  label: 'INgredient text format settings'
+  mapping:
+    settings:
+      type: mapping
+      label: 'Settings'
+      mapping:
+        title:
+          type: label
+          label: '???'
